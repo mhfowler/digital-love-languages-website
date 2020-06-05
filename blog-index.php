@@ -18,7 +18,7 @@ get_template_part('head');
         <?php
             $args = array(
               'numberposts' => 100,
-              'category'   => 'blog',
+              'category_name'   => 'blog',
               'orderby' => 'post_date',
               'order' => 'DESC',
               'post_status' => 'publish'
@@ -27,15 +27,19 @@ get_template_part('head');
             $latest_posts = get_posts( $args );
 
             if (empty($latest_posts)) {
-                echo '<p> waiting to be written </p>';
+                echo '<p class="table-of-contents"> waiting to be written </p>';
             }
             else {
+
+                echo '<p class="table-of-contents"> Table Of Contents </p>';
+
                 foreach($latest_posts as $item) {
                     $raw_date = $item->post_date;
                     $date = date_format(date_create($raw_date),"n.j.y");
                     $title = $item->post_title;
                     $link = get_permalink($item);
-                    echo "<div class='post-link'><a href='$link'><span>$title ($date)</span></a></div>";
+//                     echo "<div class='post-link'><a href='$link'><span>$title ($date)</span></a></div>";
+                    echo "<div class='post-link'><a href='$link'><span>$title</span></a></div>";
 //                     echo '<pre>'; var_dump($item);
                 }
             }
