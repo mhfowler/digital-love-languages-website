@@ -14,14 +14,16 @@ body {
 	font-family: serif;
 	background-color: black;
 	color: white;
-	margin-top: 15px;
-	padding-bottom: 50px;
 }
 
 .center-pane {
-	max-width: 800px;
-	width: 100%;
-	margin: auto;
+    max-width: 800px;
+    width: 100%;
+    margin: auto;
+    padding: 100px;
+    min-height: 60vh;
+	background-color: black;
+	padding-bottom: 50px;
 }
 
 .main-image {
@@ -74,4 +76,19 @@ img {
 	display: flex;
     align-items: center;
     flex-direction: column;
+}
+
+.post-outer-wrapper {
+	/*background-color: lightgrey;*/
+	/*border: 1px solid blue;*/
+	padding: 30px;
+	margin-top: 40px;
+	min-height: 100vh;
+	font-family: Helvetica;
+}
+.post-title {
+	font-size: 18px;
+	margin-bottom: 30px;
+	width: 100%;
+	text-align: center;
 }

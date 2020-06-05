@@ -2,22 +2,21 @@
 get_template_part('head');
 ?>
 
-<?php
-get_template_part('header');
-?>
+<div class="center-pane">
 
-    <a href="/archive"><div class="back-to-all-events">
-    ← Back To Archive
-    </div></a>
+    <?php
+    get_template_part('header');
+    ?>
 
-	<div class="post-wrapper">
+    <div class="post-outer-wrapper">
         <?php
             if ( have_posts() ) : while ( have_posts() ) : the_post();
-            get_template_part( 'content-single', get_post_format() );
+                get_template_part( 'content-single', get_post_format() );
             endwhile; endif;
         ?>
-	</div>
+    </div>
 
+</div>
 
 <?php
 get_template_part('foot');
