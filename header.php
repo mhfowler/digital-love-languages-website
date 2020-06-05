@@ -1,4 +1,5 @@
-<div class="title">
-    <a style="color:#937D63" href="/"><h1 style="font-weight: bold; font-style:italic;">digital love languages</h1></a>
-    <div class="location-right">information & materials</div>
+<div class="header-wrapper">
+    <a class="header-link" href="/about">ABOUT</a>
+    <a class="header-link" href="/tutorials">INFORMATION & MATERIALS</a>
+    <a class="header-link" href="/blog">BLOG</a>
 </div>

@@ -2,33 +2,15 @@
 get_template_part('head');
 ?>
 
-<?php
-get_template_part('header');
-?>
+<div class="center-pane">
 
-<div class="left-column">
+    <?php
+    get_template_part('header');
+    ?>
 
-	<div class="events-feed">
-		information here test
-	</div>
+	<img class="main-image" src=<?php echo get_bloginfo('template_directory'); ?>/img/dll.png></img>
+
 </div>
-
-<div class="right-column">
-
-	<div class="about">
-
-		<div class="hero-image"></div>
-
-		<p style="max-width:450px">
-		    information here
-		</p>
-
-	</div>
-</div>
-
-<?php
-get_template_part('footer');
-?>
 
 <?php
 get_template_part('foot');
