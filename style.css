@@ -8,6 +8,10 @@ Tags: sari
 
 /* Code -------------------------------------- */
 
+h1 {
+	font-size: 5em;
+}
+
 code,
 kbd,
 pre,
