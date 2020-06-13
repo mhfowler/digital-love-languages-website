@@ -3,7 +3,7 @@
 	font-weight: normal;
 	padding: 0;
 	margin: 0;
-	font-size: 15px;
+	line-height: 1.2em;
 }
 
 body {
@@ -107,6 +107,55 @@ img {
 	text-align: center;
 }
 
+ h1
+    {
+    font-size: 2em;
+	padding-bottom: 1em;
+}
+
+h1.em
+    {
+    font-size: 2.0em !important;
+}
+
+h2
+    {
+    font-size: 1.8em;
+	padding-bottom: 1em;
+}
+
+
+h2.em
+    {
+    font-size: 1.8em !important;
+}
+
+h3
+    {
+    font-size: 1.6em;
+	padding-bottom: .5em;
+}
+
+h4
+    {
+    font-size: 1.4em;
+	padding-bottom: .5em;
+}
+
+h5
+    {
+    font-size: 1.2em;
+}
+
+table {
+	margin-bottom: 2em;
+    margin-top: 1em;
+}
+
+ul {
+	padding-left: 1em;
+	margin-bottom: 15px;
+}
 
 .tg  {border-collapse:collapse;border-spacing:0;}
 .tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;

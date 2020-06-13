@@ -1,5 +1,5 @@
 /*
-Theme Name: DLL Web
+Theme Name: DLL Web 2
 Author: Max Fowler
 Description: theme for dll website
 Version: 0.0.1
@@ -8,9 +8,6 @@ Tags: sari
 
 /* Code -------------------------------------- */
 
-h1 {
-	font-size: 5em;
-}
 
 code,
 kbd,
@@ -41,6 +38,7 @@ pre code {
 	background: transparent;
 	padding: 0;
 }
+
 
 
 /**
@@ -87,6 +85,8 @@ pre code {
 /**
  * Reset the WP Admin page styles for Gutenberg-like pages.
  */
+
+
 
 .has-small-font-size {
   font-size: 13px; }
