@@ -31,7 +31,7 @@ get_template_part('head');
             }
             else {
 
-                echo '<p class="table-of-contents"> Tutorials </p>';
+                echo '<p class="table-of-contents"> Lessons, Information, Materials </p>';
 
                 foreach($latest_posts as $item) {
                     $raw_date = $item->post_date;

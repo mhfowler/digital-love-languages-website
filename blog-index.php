@@ -8,11 +8,11 @@ Template Name: Blog Index
 get_template_part('head');
 ?>
 
-<div class="center-pane">
+<?php
+get_template_part('header');
+?>
 
-    <?php
-    get_template_part('header');
-    ?>
+<div class="center-pane">
 
     <div class="blog-index-wrapper">
         <?php
@@ -31,7 +31,7 @@ get_template_part('head');
             }
             else {
 
-                echo '<p class="table-of-contents"> Table Of Contents </p>';
+                echo '<p class="table-of-contents"> Digital Love Languages ♡ Blog </p>';
 
                 foreach($latest_posts as $item) {
                     $raw_date = $item->post_date;

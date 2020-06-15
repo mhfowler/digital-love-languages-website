@@ -2,11 +2,12 @@
 get_template_part('head');
 ?>
 
+<?php
+get_template_part('header');
+?>
+
 <div class="center-pane">
 
-    <?php
-    get_template_part('header');
-    ?>
     <div class="post-outer-wrapper">
         <?php
             if ( have_posts() ) : while ( have_posts() ) : the_post();

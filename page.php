@@ -2,11 +2,11 @@
 get_template_part('head');
 ?>
 
-<div class="center-pane">
+<?php
+get_template_part('header');
+?>
 
-    <?php
-    get_template_part('header');
-    ?>
+<div class="center-pane broider">
 
     <div class="page-wrapper info-page">
         <?php
