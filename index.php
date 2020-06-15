@@ -23,7 +23,11 @@ get_template_part('header');
 <!-- wp:paragraph -->
 <p>🦋&nbsp;&nbsp;This course covers the building blocks of programming and natural language processing using Python & Javascript in the browser. Networks of people and computers become fertile sites for ambient and playful communication. We will look to the history of the love letter as a form, from the&nbsp;<em class="special">quill</em>&nbsp;to the&nbsp;<em class="special">sext</em>.<br />
 Through coding with langugage and in the browser, we can facilitate a kind of care that happens in small moments of routine.</p>
-
+<br /><br />
+<p>
+	<a class="big-link" href="/syllabus">Syllabus</a>
+</p>
+<br /><br />
 <p class="special">🩸&nbsp;&nbsp;Careful placemaking on the internet, our computers, and our hearts.</p>
 	</div>
 <!-- /wp:paragraph -->

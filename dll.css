@@ -141,6 +141,16 @@ body {
 	font-family: Helvetica;
 }
 
+.big-link {
+outline: 2px dashed blue;
+padding: .5em;
+padding-top: .2em;
+}
+
+.big-link:hover {
+	text-decoration: underline;
+}
+
 p {
 	margin-bottom: 15px;
 }
