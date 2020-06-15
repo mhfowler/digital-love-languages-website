@@ -14,13 +14,13 @@
 <body>
 
 	<div class="header-wrapper">
-	    <a class="broider header-link top-left" href="/tutorials">Lessons</a>
+	    <a class="broider header-link top-left" href="/lessons">Lessons</a>
 	    <a class="broider header-link top-right" href="/blog">Blog</a>
 	</div>
 
 	<div class="header-wrapper-mobile broider ">
 		<a class="header-link" href="/">Home</a>
-			<a class="header-link" href="/tutorials">Lessons</a>
-			<a class="header-link" href="/library">Blog</a>
-			<a class="header-link" href="/about">Library</a>
+			<a class="header-link" href="/lessons">Lessons</a>
+			<a class="header-link" href="/blog">Library</a>
+			<a class="header-link" href="/library">Library</a>
 	</div>
