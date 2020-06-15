@@ -21,6 +21,6 @@
 	<div class="header-wrapper-mobile broider ">
 		<a class="header-link" href="/">Home</a>
 			<a class="header-link" href="/tutorials">Lessons</a>
-			<a class="header-link" href="/blog">Blog</a>
+			<a class="header-link" href="/library">Blog</a>
 			<a class="header-link" href="/about">Library</a>
 	</div>
