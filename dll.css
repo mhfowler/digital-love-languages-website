@@ -43,7 +43,7 @@ body {
 	width: 100%;
 	display: block;
 	margin: auto;
-	/* margin-top: -3em; */
+	margin-top: -1em;
 }
 
 .header-wrapper, .foot-wrapper {
