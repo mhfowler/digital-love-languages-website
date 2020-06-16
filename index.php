@@ -31,7 +31,6 @@ Through coding with langugage and in the browser, we can facilitate a kind of ca
 <p class="special">🩸&nbsp;&nbsp;Careful placemaking on the internet, our computers, and our hearts.</p>
 	</div>
 <!-- /wp:paragraph -->
-
 </div>
 
 <?php
