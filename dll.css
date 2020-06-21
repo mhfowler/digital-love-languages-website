@@ -26,7 +26,7 @@ body {
     width: 100%;
     margin: auto;
     padding: 100px;
-    min-height: 75vh;
+    min-height: 73vh;
 	/* background-color: rgba(38, 37, 37, 1); */
 	background-color: black;
 	border-image:  url("img/broider.png") 28 /  28px / 0 round;
@@ -62,9 +62,7 @@ body {
 }
 
 
-.invert {
-	filter: invert(100%);
-}
+
 
 
 
@@ -78,13 +76,17 @@ body {
 	outline: 2px dashed blue;
 }
 
-.header-link:hover {
-	color: #00FFFF;
+
+
+
+.invert {
+	/* filter: invert(100%); */
+	outline: 2px dashed yellow;
 }
 
 
 .top-right, .top-left {
-	margin: 1em;
+	margin: 1.3em;
 	position: fixed;
 	padding: .5em;
 	width: 52px;
@@ -92,11 +94,14 @@ body {
 
 .bottom-right, .bottom-left {
 	position: fixed;
-	bottom: 0em;
+	bottom: .8em;
 	margin: 1em;
+	margin-right: 1.4em;
+	margin-left: 1.4em;
 	padding: .5em;
 	width: 52px;
 }
+
 
 
 .top-right, .bottom-right {
@@ -151,8 +156,38 @@ padding-top: .2em;
 	text-decoration: underline;
 }
 
+.notes {
+	border: 2px dashed blue;
+	    width: 132px;
+	    transform: rotate(-20deg);
+	    padding: .5em;
+	    /* margin-bottom: 5em; */
+}
+
+.notes:hover {
+	border: 2px dashed yellow;
+}
+
+
+.private {
+	visibility: hidden;
+	transform: rotate(-20deg);
+    margin-bottom: 1.5em;
+	padding-left: 2em;
+	font-style: italic;
+	font-family: VG5000;
+	font-size: 1.2em;
+	color: #ebbeee;
+}
+
+.show {
+	visibility: visible;
+}
+
+
+
 .remove-margin {
-	margin-top: -6em;
+	margin-top: -3em;
 }
 
 p {
@@ -163,8 +198,8 @@ p a {
 	color: #fcd0fb;
 }
 
-p a:visited {
-	color: #fcd0fb;
+a, a:visited {
+    color: inherit;
 }
 
 img {
@@ -175,18 +210,85 @@ a {
 	color: #fcd0fb;
 }
 
-a:visited {
+ul a{
 	color: #fcd0fb;
 }
 
-.post-link a span {
-	color: #f3fcd0;
-	font-size: 2em;
+ul a:visited {
+	color: #fcd0fb;
 }
 
-.post-link a span:visited {
-	color: #f3fcd0;
+ul a:hover {
+	color: yellow;
 }
+
+
+	.post-link a span {
+	    color: white;
+	    font-size: 1.6em;
+	}
+
+
+.post-link a {
+	color: blue;
+}
+
+.post-link a:hover {
+	color: yellow;
+}
+
+
+.blog {
+	border: 2px dashed blue;
+	width: 360px;
+	padding: .5em;
+}
+
+
+/*
+
+.post-link a span {
+	color: white;
+	font-size: 2em;
+  display: block;
+	margin-bottom: .1em;
+	padding-top: 1em;
+}
+
+.post-link a {
+    text-decoration: none;
+}
+
+.post-link:hover {
+	text-decoration: none;
+	border-bottom: 2px dashed blue;
+} */
+
+
+
+
+.lesson-link a span {
+	font-family: VG5000;
+	color: white;
+	font-size: 2em;
+  display: block;
+	margin-bottom: .1em;
+	padding-top: 1em;
+}
+
+.lesson-link a {
+    text-decoration: none;
+}
+
+.lesson-link:hover {
+	text-decoration: none;
+	border-bottom: 2px dashed yellow;
+}
+
+
+
+
+
 
 .wp-caption-text {
 	color: #777575;
@@ -385,11 +487,11 @@ ul {
 	}
 
 	.bottom-right, .bottom-left {
-		bottom: .5em;
+bottom: .8em;
 	}
 
 	.top-right, .top-left {
-		margin-top: 1.5em
+		margin-top: 1.8em
 	}
 
 
@@ -398,12 +500,28 @@ ul {
 @media (max-width: 600px) {
 	.center-pane {
 		padding: 15px;
-		width: 90%;
 	}
 
 	.blog-index-wrapper {
 	    align-items: flex-start;
 	}
+
+
+	.post-content img{
+		/* max-width: 400px; */
+		height: auto;
+	}
+
+	figure {
+		margin-block-start: 2em;
+    margin-block-end: 2em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+	}
+
+	figcaption {
+    color: grey;
+}
 
 
 	.post-outer-wrapper {
@@ -416,8 +534,10 @@ ul {
 	display: none !important;
 }
 
-.invert {
-	filter: invert(0%);
+html, body{
+  margin:0;
+  padding:0;
+  width:100%;
 }
 
 .header-wrapper-mobile {
@@ -426,12 +546,11 @@ ul {
 	align-items: center;
 	display: flex;
 	justify-content: space-between !important;
-	width: 100%;
+	width: 100vh;
 	text-align: center;
 	padding-left: .3em;
 	padding-right: .3em;
 	font-family: VG5000;
-
 }
 
 .header-link {
@@ -443,7 +562,7 @@ ul {
 	margin-top: 0em;
 }
 
-.header-wrapper-mobile .header-link {
+.header-link {
 	/* padding-left: .5em;
 	padding-right: .5em; */
 	padding-bottom: .3em;
@@ -455,6 +574,28 @@ ul {
 	width: 92%;
 	margin-left: 1em;
 }
+
+
+.lesson-link a span {
+	border-bottom: 2px dashed blue;
+	padding-bottom: .2em;
+}
+
+.private {
+	visibility: visible;
+}
+
+.notes {
+	width: 110px;
+	margin-left: .3em;
+}
+
+.blog {
+	width: 200px;
+}
+
+
+
 
 }
 

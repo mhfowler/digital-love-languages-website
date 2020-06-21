@@ -21,6 +21,17 @@ $(document).ready(function() {
 
 
 
+          $(".notes").hover(
+            function () {
+              $(".private").addClass('show');
+            },
+            function () {
+              $(".private").removeClass('show');
+            }
+            );
+
+
+
 
 
 

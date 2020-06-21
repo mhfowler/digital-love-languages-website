@@ -31,7 +31,9 @@ get_template_part('header');
             }
             else {
 
-                echo '<p class="table-of-contents"> Digital Love Languages ♡ Blog </p>';
+                echo '<img class="blog" id="blog" src="https://i.imgur.com/Wp5qRqb.jpg"></img><p class="table-of-contents">Digital Love Languages ♡ Blog</p>';
+
+
 
                 foreach($latest_posts as $item) {
                     $raw_date = $item->post_date;

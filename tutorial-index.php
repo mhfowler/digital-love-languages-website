@@ -31,7 +31,10 @@ get_template_part('head');
             }
             else {
 
-                echo '<p class="table-of-contents"> Lessons, Information, Materials </p>';
+
+                  echo '<a href="http://lovelanguages.melaniehoff.com/notes/"><img class="notes" src="https://i.imgur.com/PuVZTvX.jpg"></img></a><p class="private">Private Notes</p>';
+
+                // <p class="table-of-contents"> Lessons, Information, Materials</p>
 
                 foreach($latest_posts as $item) {
                     $raw_date = $item->post_date;
@@ -39,7 +42,7 @@ get_template_part('head');
                     $title = $item->post_title;
                     $link = get_permalink($item);
 //                     echo "<div class='post-link'><a href='$link'><span>$title ($date)</span></a></div>";
-                    echo "<div class='post-link'><a href='$link'><span>$title</span></a></div>";
+                    echo "<div class='lesson-link'><a href='$link'><span>$title</span></a></div>";
 //                     echo '<pre>'; var_dump($item);
                 }
             }
