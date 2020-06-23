@@ -508,7 +508,7 @@ bottom: .8em;
 
 
 	.post-content img{
-		/* max-width: 400px; */
+		max-width: 80%;
 		height: auto;
 	}
 
