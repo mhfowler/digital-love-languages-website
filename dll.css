@@ -333,10 +333,27 @@ ul a:hover {
 	margin-top: 0em;
 }
 
+pre {
+	border: 0.1rem solid #dcd7ca;
+    line-height: 1.5;
+    margin: 4rem 0;
+    overflow: auto;
+    padding: .5rem .5rem !important;
+    text-align: left;
+    color: black;
+    font-weight: 700;
+    /* border-radius: 4%; */
+    border-radius: 5px;
+    /* width: fit-content; */
+    background-color: #e8e6e6;
+}
+
  h1
     {
-    font-size: 2em;
-	padding-bottom: 1em;
+	font-size: 2.5em;
+    padding-bottom: 1em;
+    FONT-FAMILY: Minipax;
+    line-height: 1em;
 }
 
 h1.em
@@ -349,6 +366,7 @@ h2
     font-size: 1.8em;
 		line-height: 1.1em;
 	padding-bottom: 1em;
+	font-family: VG5000;
 }
 
 
