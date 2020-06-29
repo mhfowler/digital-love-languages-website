@@ -78,6 +78,32 @@ body {
 
 
 
+.accordion:hover .accordion-item:hover .accordion-item-content,
+.accordion .accordion-item--default .accordion-item-content {
+    height: 10em;
+}
+
+.accordion-item-content,
+.accordion:hover .accordion-item-content {
+    height: 0;
+    overflow: hidden;
+    transition: height .8s;
+		text-align: left;
+}
+
+.top-left:hover {
+	width: 9em;
+	transition: width 1s;
+	text-align: left;
+}
+
+.accordion .accordion-item {
+  /* padding: .1em; */
+  color: white;
+}
+
+
+
 
 .invert {
 	/* filter: invert(100%); */
@@ -116,6 +142,10 @@ body {
 	}
 
 
+
+.drop-link {
+	all: initial;
+}
 
 .description p{
 	font-size: 1.4em;
