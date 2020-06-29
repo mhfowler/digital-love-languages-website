@@ -548,6 +548,7 @@ bottom: .8em;
 @media (max-width: 600px) {
 	.center-pane {
 		padding: 15px;
+		max-width: 80%;
 	}
 
 	.blog-index-wrapper {
@@ -556,7 +557,7 @@ bottom: .8em;
 
 
 	.post-content img{
-		max-width: 80%;
+		max-width: 95%;
 		height: auto;
 	}
 
@@ -640,6 +641,10 @@ html, body{
 
 .blog {
 	width: 200px;
+}
+
+.wp-caption {
+	max-width: 100% !important;
 }
 
 
