@@ -33,16 +33,16 @@
 	<div class="header-wrapper">
 	    <a class="accordion broider header-link top-left" href="/lessons">
 				<section class="accordion-item">Lessons
-						<div class="accordion-item-content">
+						<!-- <div class="accordion-item-content">
 							<p>Syllabus</p>
 							<p>Week 1 Orientation</p>
 							<p>Week 2 Folder Poetry</p>
-							<p>Week 3 Folder Poetry</p>
+							<p>Week 3 Folder Poetry</p> -->
 							<!-- <a href="" class="drop-link">Syllabus</a>
 							<a href="" class="drop-link">Week 1 Orientation</a>
 							<a href="" class="drop-link">Week 2 Folder Poetry</a>
 							<a href="" class="drop-link">Week 3 Folder Poetry</a> -->
-						</div>
+						<!-- </div> -->
 				</section>
 			</a>
 	    <a class="broider header-link top-right" href="/blog">Blog</a>

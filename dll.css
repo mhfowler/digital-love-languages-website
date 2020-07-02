@@ -92,8 +92,8 @@ body {
 }
 
 .top-left:hover {
-	width: 9em;
-	transition: width 1s;
+	/* width: 9em; */
+	/* transition: width 1s; */
 	text-align: left;
 }
 
