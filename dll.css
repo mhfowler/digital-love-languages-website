@@ -163,7 +163,6 @@ body {
 
 .table-of-contents {
 	font-size: 2em;
-	font-style: italic;
 	margin-bottom: 50px;
   font-family: VG5000;
 	line-height: 1.2em;
@@ -252,10 +251,15 @@ ul a:hover {
 	color: yellow;
 }
 
+.post-link {
+	margin-bottom: 3em;
+}
 
 	.post-link a span {
-	    color: white;
-	    font-size: 1.6em;
+		color: #ffffff;
+		    font-size: 2em;
+		    /* font-family: VG5000; */
+		    font-style: italic;
 	}
 
 
@@ -269,9 +273,10 @@ ul a:hover {
 
 
 .blog {
-	border: 2px dashed blue;
-	width: 360px;
+
+	width: 245px;
 	padding: .5em;
+	margin-bottom: 3em;
 }
 
 
