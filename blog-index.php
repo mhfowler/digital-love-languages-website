@@ -31,7 +31,7 @@ get_template_part('header');
             }
             else {
 
-                echo '<img class="blog" id="blog" src="https://i.imgur.com/Wp5qRqb.jpg"></img><p class="table-of-contents">Digital Love Languages ♡ Blog</p>';
+                echo '<p class="table-of-contents">Digital Love Languages ♡ Blog</p><img class="blog" id="blog" src="https://i.imgur.com/m9ldhSp.png"></img>';
 
 
 
