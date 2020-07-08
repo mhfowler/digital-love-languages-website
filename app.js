@@ -5,6 +5,12 @@ $(document).ready(function() {
 
 
 
+    $(".accordion-link").click(function(event) {
+          event.preventDefault();
+          var link = $(this).data('link');
+          console.log(link);
+          window.location.replace(link);
+    });
 
 
 

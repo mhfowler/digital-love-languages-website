@@ -72,22 +72,43 @@ body {
 	color: white;
 	text-align: center;
 	background-color: black;
-	border-radius: 60%;
+	/*border-radius: 60%;*/
 	outline: 2px dashed blue;
 }
 
 
-
-.accordion:hover .accordion-item:hover .accordion-item-content,
-.accordion .accordion-item--default .accordion-item-content {
-    height: 10em;
+.accordion {
+	float: left;
+	text-align: left;
+	padding-left: 12px;
+    padding-top: 8px;
+    padding-right: 13px;
+    padding-bottom: 10px;
+	text-decoration: none;
+	width: 52px;
 }
 
-.accordion-item-content,
-.accordion:hover .accordion-item-content {
+.accordion-wrapper:hover .accordion .accordion-item .accordion-item-content,
+.accordion .accordion-item--default .accordion-item-content {
+    height: 12em;
+	background-color: black;
+	margin-top: 10px;
+}
+.accordion-wrapper:hover .accordion .accordion-item .accordion-item-content,
+.accordion .accordion-item--default .accordion-item-content {
+    height: 12em;
+	background-color: black;
+	margin-top: 10px;
+}
+.accordion-wrapper:hover .accordion {
+	width: 180px;
+	transition: width .8s linear;
+}
+
+.accordion-item-content {
     height: 0;
     overflow: hidden;
-    transition: height .8s;
+    transition: height .8s linear;
 		text-align: left;
 }
 
@@ -110,8 +131,14 @@ body {
 	outline: 2px dashed yellow;
 }
 
+.top-left {
+	width: auto;
+	margin: 1.3em;
+	position: fixed;
+}
 
-.top-right, .top-left {
+
+.top-right {
 	margin: 1.3em;
 	position: fixed;
 	padding: .5em;
@@ -320,10 +347,17 @@ ul a:hover {
 	border-bottom: 2px dashed yellow;
 }
 
-
-
-
-
+.accordion-link {
+	min-width: 180px;
+	margin-top: 0px;
+}
+.accordion-link:hover {
+	border-bottom: 2px dashed yellow;
+	margin-bottom: 13px;
+}
+a.accordion-link {
+	display: block;
+}
 
 .wp-caption-text {
 	color: #777575;
