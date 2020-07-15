@@ -1,13 +1,12 @@
-
- <div class="accordion-wrapper top-left header-link">
-            <a class="accordion broider" href="/lessons">
-                <section class="accordion-item">Lessons
+ <div class="accordion-wrapper header-link <?php echo $accordionPosition ?>">
+            <a class="accordion broider" href=<?php echo "$accordionUrl" ?>>
+                <section class="accordion-item"><?php echo $accordionTitle ?>
                    <div class="accordion-item-content">
-                 		<div class="accordion-item-content">
+                 		<div class="accordion-link-wrapper">
 							 <?php
                                     $args = array(
                                       'numberposts' => 100,
-                                      'category_name'   => 'Tutorial',
+                                      'category_name'   => $accordionType,
                                       'orderby' => 'post_date',
                                       'order' => 'ASC',
                                       'post_status' => 'publish'
@@ -16,7 +15,7 @@
                                     $latest_posts = get_posts( $args );
 
                                     if (empty($latest_posts)) {
-                                        echo '<p class="accordion-link"> no lessons yet </p>';
+                                        echo '<p class="accordion-link"> nothing here yet </p>';
                                     }
                                     else {
                                         foreach($latest_posts as $item) {
@@ -24,7 +23,6 @@
                                             $date = date_format(date_create($raw_date),"n.j.y");
                                             $title = $item->post_title;
                                             $link = get_permalink($item);
-//                                             echo "<p class='lesson-link' data-link='$link'><a href='$link'><span>$title</span></a></p>";
                                             echo "<p class='accordion-link' data-link='$link'>$title</p>";
                                         }
                                     }

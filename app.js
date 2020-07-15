@@ -3,6 +3,18 @@ $(document).ready(function() {
     console.log('++ jquery is working heyyyyy')
 
 
+  // set height of .accordion-item-content based on height of accordion-link-wrapper
+  // to make the css transition dynamic without manual resizing
+  $(".accordion-wrapper").hover(function() {
+      var item = $(this).find('.accordion-item-content');
+      var linkWrapper = $(this).find('.accordion-link-wrapper');
+      var height = linkWrapper.height();
+      var newHeight = height + 20;
+      item.css('height', newHeight + 'px');
+  }, function() {
+      var item = $(this).find('.accordion-item-content');
+      item.css('height', '0');
+  });
 
 
     $(".accordion-link").click(function(event) {

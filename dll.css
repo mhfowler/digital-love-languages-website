@@ -77,8 +77,12 @@ body {
 }
 
 
+a.accordion {
+	display: block;
+	height: auto;
+}
+
 .accordion {
-	float: left;
 	text-align: left;
 	padding-left: 12px;
     padding-top: 8px;
@@ -88,27 +92,24 @@ body {
 	transition: width .8s linear;
 }
 
-.accordion-wrapper:hover .accordion .accordion-item .accordion-item-content,
-.accordion .accordion-item--default .accordion-item-content {
-    height: 12em;
-	background-color: black;
-}
-.accordion-wrapper:hover .accordion .accordion-item .accordion-item-content,
-.accordion .accordion-item--default .accordion-item-content {
-    height: 13em;
-	background-color: black;
-	margin-top: 10px;
-}
+/*.accordion-wrapper:hover .accordion-item-content {*/
+/*	!*this needs to be manually set to the correct height for the animation*!*/
+/*	height: 17em;*/
+/*}*/
 .accordion-wrapper:hover .accordion {
-	width: 180px;
+	width: 185px;
+}
+.top-right .accordion-wrapper:hover .accordion {
+	width: 300px;
 }
 
 .accordion-item-content {
-    height: 0;
+	height: 0;
     overflow: hidden;
     transition: height .8s linear;
 	text-align: left;
-		margin-top: 10px;
+	margin-top: 10px;
+	background-color: black;
 }
 
 .top-left:hover {
@@ -141,7 +142,14 @@ body {
 	margin: 1.3em;
 	position: fixed;
 	padding: .5em;
-	width: 52px;
+	width: auto;
+}
+.top-right .accordion {
+	text-align: right;
+	padding-right: 3px;
+}
+.top-right .accordion-item {
+	padding-right: 16px;
 }
 
 .bottom-right, .bottom-left {
@@ -347,7 +355,7 @@ ul a:hover {
 }
 
 .accordion-link {
-	min-width: 180px;
+	width: 180px;
 	margin-top: 0px;
 }
 .accordion-link:hover {
@@ -356,6 +364,9 @@ ul a:hover {
 }
 a.accordion-link {
 	display: block;
+}
+.top-right .accordion-link {
+	width: 160px;
 }
 
 .wp-caption-text {

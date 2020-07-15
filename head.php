@@ -40,8 +40,20 @@
 <body>
 
 	<div class="header-wrapper">
-	    <?php get_template_part('accordion'); ?>
-	    <a class="broider header-link top-right" href="/blog">Blog</a>
+        <?php
+            $accordionType = 'Tutorial';
+            $accordionUrl = '/lessons';
+            $accordionPosition = 'top-left';
+            $accordionTitle = 'Lessons';
+            include(locate_template('accordion.php'));
+        ?>
+        <?php
+            $accordionTitle = 'Blog';
+            $accordionType = 'Blog';
+            $accordionUrl = '/blog';
+            $accordionPosition = 'top-right';
+            include(locate_template('accordion.php'));
+        ?>
 	</div>
 
 	<div class="header-wrapper-mobile broider ">
