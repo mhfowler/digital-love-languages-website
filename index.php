@@ -9,9 +9,13 @@ get_template_part('header');
 <div class="center-pane">
 
 <div id="zoom-container">
-	<span class="heart">♡ </span><a class="zoom underline--dotted" href="https://us02web.zoom.us/j/85340685306">Join the 8/18 1PM ET Zoom</a><br />
-	<span class="heart">♡ </span><a class="zoom underline--dotted" href="https://us02web.zoom.us/j/82548166690">Join the 8/19 5PM ET Zoom</a><br />
-	<span class="heart">♡ </span><a class="zoom underline--dotted" href="https://twitch.tv/sfpc_nyc">Stream on Twitch</a><br />
+	<span class="heart">♡ </span><a target="_blank" class="zoom underline--dotted" href="https://us02web.zoom.us/j/85340685306">Join the 8/18 1PM ET Zoom</a><br />
+	<span class="heart">♡ </span><a target="_blank" class="zoom underline--dotted" href="https://us02web.zoom.us/j/82548166690">Join the 8/19 5PM ET Zoom</a><br />
+	<span class="heart">♡ </span><a target="_blank" class="zoom underline--dotted" href="https://twitch.tv/sfpc_nyc">Stream on Twitch</a><br />
+	<span class="heart">♡ </span><a target="_blank" class="zoom underline--dotted" href="https://digitallovelanguages.github.io/">Landscapes of Love Class Webzine</a>
+	<br />
+	<br />
+	<br />
 </div>
 
 	<a id="rsvp-link" href="https://www.eventbrite.com/e/sharing-sessions-digital-love-languages-tickets-116379382867" target="_blank">
