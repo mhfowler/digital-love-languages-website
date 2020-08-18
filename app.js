@@ -26,6 +26,14 @@ $(document).ready(function() {
 
 
 
+      $("#rsvp-link").hover(
+        function () {
+          $(".border").css("border", "2px dashed yellow");
+        },
+        function () {
+          $(".border").css("border", "2px dashed blue");
+        }
+        );
 
 
     $(".header-link").hover(

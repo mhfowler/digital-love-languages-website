@@ -27,15 +27,16 @@
 <meta property="og:type" content="website">
 <meta property="og:url" content="http://lovelanguages.melaniehoff.com/">
 <meta property="og:title" content="digital love languages">
-<meta property="og:description" content="">
-<meta property="og:image" content="">
+<meta property="og:description" content="A 10 weeks course exploring code as a practice that can be gentle, healing, & loving">
+<meta property="og:image" content="<?php echo get_bloginfo('template_directory'); ?>/img/meta.png">
 
+<!-- TODO -->
 <!-- Twitter -->
 <meta property="twitter:card" content="summary_large_image">
 <meta property="twitter:url" content="http://lovelanguages.melaniehoff.com/">
 <meta property="twitter:title" content="digital love languages">
-<meta property="twitter:description" content="">
-<meta property="twitter:image" content="">
+<meta property="twitter:description" content="A 10 weeks course exploring code as a practice that can be gentle, healing, & loving">
+<meta property="twitter:image" content="<?php echo get_bloginfo('template_directory'); ?>/img/meta.png">
 </head>
 
 <body>

@@ -8,6 +8,24 @@ get_template_part('header');
 
 <div class="center-pane">
 
+<div id="zoom-container">
+	<span class="heart">♡ </span><a class="zoom underline--dotted" href="https://us02web.zoom.us/j/85340685306">Join the 8/18 1PM ET Zoom</a><br />
+	<span class="heart">♡ </span><a class="zoom underline--dotted" href="https://us02web.zoom.us/j/82548166690">Join the 8/19 5PM ET Zoom</a><br />
+	<span class="heart">♡ </span><a class="zoom underline--dotted" href="https://twitch.tv/sfpc_nyc">Stream on Twitch</a><br />
+</div>
+
+	<a id="rsvp-link" href="https://www.eventbrite.com/e/sharing-sessions-digital-love-languages-tickets-116379382867" target="_blank">
+		<div class="star-container">
+		<div class="circle">
+			<div class="border"></div>
+		<p id="rsvp">
+			RSVP
+		</p>
+	<!-- <div class="star-12"></div> -->
+</div>
+	</div>
+</a>
+	<img id="sharing-poster"src="<?php echo get_bloginfo('template_directory'); ?>/img/site.png"</img>
 	<img class="main-image" src=<?php echo get_bloginfo('template_directory'); ?>/img/dll.png></img>
 
 	<!-- wp:paragraph -->
@@ -28,7 +46,7 @@ Through coding with langugage and in the browser, we can facilitate a kind of ca
 	<a class="big-link" href="/syllabus">Syllabus</a>
 </p>
 <br /><br />
-<p class="special">🩸&nbsp;&nbsp;Careful placemaking on the internet, our computers, and our hearts.</p>
+<p class="special">🩸&nbsp;&nbsp;What if all the software we used was made by people who love us?</p>
 	</div>
 <!-- /wp:paragraph -->
 </div>
