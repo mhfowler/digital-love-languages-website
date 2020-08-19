@@ -8,6 +8,14 @@
   src: url('fonts/VG5000/VG5000-Regular_web.woff') format('woff');
 }
 
+span a {
+  color: blue !important;
+}
+
+span a:visited {
+  color: blue !important;
+}
+
 .circle {
   width: 25em;
   height: 25em;
@@ -127,7 +135,9 @@
   width: fit-content;
   z-index: 20;
   font-size: 8em;
+  text-decoration: line-through;
   color: white;
+  opacity: .2;
   font-family: VG5000;
   margin: auto;
   position: absolute;
