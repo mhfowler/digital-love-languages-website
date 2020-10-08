@@ -13,10 +13,6 @@ get_template_part('header');
 	<span class="heart">♡⚡️ </span><a target="_blank" class="zoom underline--dotted" href="https://rcravago.github.io/handle-with-care/inner-package.html">Love Letter to Digital Love Languages</a><br />
 	<span class="heart">♡⚡️ </span><a target="_blank" class="zoom underline--dotted" href="https://rcravago.github.io/handle-with-care/inner-package.html">Digital Love Languages on Are.na</a><br />
 	
-
-	<br />
-	<br />
-	<br />
 </div>
 
 	<div>

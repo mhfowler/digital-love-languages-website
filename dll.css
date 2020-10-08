@@ -2,7 +2,7 @@
   font-family: 'Minipax';
   src: url('fonts/Minipax/Minipax-Regular.woff') format('woff');
 }
-
+ 
 @font-face {
   font-family: 'VG5000';
   src: url('fonts/VG5000/VG5000-Regular_web.woff') format('woff');
@@ -31,14 +31,14 @@ span a:visited {
 }
 
 #sharing-poster {
-  margin-top: 13em;
+  margin-top: 14em;
 }
 
 #zoom-container {
   font-size: 1.6em;
   font-family: 'VG5000';
   line-height: 1.5em;
-  margin-bottom: -4em;
+  margin-bottom: 6em;
   margin-top: 2em;
   padding-left: 1em;
   color: blue;
@@ -139,7 +139,7 @@ span a:visited {
   color: blue !important;
   font-size: 1.5em;
   margin-top: 6em !important;
-  margin-left: 1em !important;
+  margin-left: .2em !important;
   color: white;
   font-family: VG5000;
   margin: auto;
@@ -165,8 +165,8 @@ ul {
 }
 
 li {
-  padding-left: 1em;
-  text-indent: -1em;
+  padding-left: 1.7em;
+    text-indent: -1em;
 }
 
 li:before {
@@ -726,21 +726,39 @@ ul {
   .circle {
     width: 18em;
     height: 18em;
-    left: 7.5em;
-    top: -0.5em;
+    left: 4.5em;
+    top: -6.5em;
   }
 
   #rsvp {
-    /* font-size: 6.1em; */
+    text-align: left !important;
+    z-index: 1;
+    text-align: center;
+    color: blue !important;
+    font-size: 1.5em;
+    margin-top: 3.5em !important;
+    margin-left: 2em !important;
   }
+
+  li {
+    padding-left: 1em;
+    text-indent: -1em;
+}
+
+#rsvp ul {
+  margin-left: 0;
+}
+ul {
+  padding-left: 0em;
+}
 }
 
 @media (max-width: 896px) {
   .circle {
-    width: 18em;
+    /* width: 18em;
     height: 18em;
     left: 7.5em;
-    top: -0.5em;
+    top: -0.5em; */
   }
 
   #rsvp {
@@ -749,12 +767,12 @@ ul {
 }
 
 @media (max-width: 800px) {
-  .circle {
+  /* .circle {
     width: 13em;
     height: 13em;
     left: 1.2em;
     top: -3em;
-  }
+  } */
 
   #rsvp {
     /* font-size: 4.1em;
@@ -775,13 +793,13 @@ ul {
   }
 
   #zoom-container {
-    margin-bottom: 0em;
+    /* margin-bottom: 0em; */
   }
 
   #rsvp {
-    /* font-size: 3.5em;
-    left: 22%; */
-  }
+    font-size: 1em;
+    margin-left: 2.5em !important;
+}
 
   .center-pane {
     padding: 15px;
