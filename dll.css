@@ -23,11 +23,20 @@ span a:visited {
   width: 25em;
   height: 25em;
   position: absolute;
-  /* top: -6em;
-  left: 1.2em; */
   z-index: 0;
   top: -8em;
   left: 3.2em;
+}
+
+@-moz-document url-prefix() {
+  .circle {
+    margin-top: 1em;
+    left: 30em;
+  }
+
+  #sharing-poster {
+    margin-top: 16em;
+  }
 }
 
 #sharing-poster {
@@ -59,6 +68,7 @@ span a:visited {
 
 #zoom-container a {
   text-decoration: none;
+color: blue;
 }
 
 .circle .border {
@@ -707,6 +717,8 @@ ul {
   vertical-align: top
 }
 
+
+
 @media (max-width: 1290px) {
   .center-pane {
     margin-top: 0em;
@@ -720,6 +732,7 @@ ul {
   .top-right, .top-left {
     margin-top: 1.8em
   }
+
 }
 
 @media (max-width: 1149px) {
@@ -751,20 +764,22 @@ ul {
 ul {
   padding-left: 0em;
 }
-}
 
-@media (max-width: 896px) {
+@-moz-document url-prefix() {
   .circle {
-    /* width: 18em;
-    height: 18em;
-    left: 7.5em;
-    top: -0.5em; */
+    margin-top: 1em;
+    left: 23em;
   }
 
-  #rsvp {
-    /* font-size: 6.1em; */
+  #sharing-poster {
+    margin-top: 16em;
   }
 }
+
+
+}
+
+
 
 @media (max-width: 800px) {
   /* .circle {
@@ -782,6 +797,17 @@ ul {
   #zoom-container {
     font-size: 1.2em;
   }
+
+  @-moz-document url-prefix() {
+    .circle {
+      margin-top: 2em;
+      left: 1em;
+    }
+
+    #sharing-poster {
+      margin-top: 16em;
+    }
+}
 }
 
 @media (max-width: 600px) {
@@ -791,6 +817,12 @@ ul {
     left: -6.5em;
     top: -3em;
   }
+
+  @-moz-document url-prefix() {
+    .circle {
+      left: 1em;
+    }
+}
 
   #zoom-container {
     /* margin-bottom: 0em; */
