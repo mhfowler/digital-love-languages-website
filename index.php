@@ -9,25 +9,36 @@ get_template_part('header');
 <div class="center-pane">
 
 <div id="zoom-container">
-	<span class="heart">♡ </span><a target="_blank" class="zoom underline--dotted" href="https://us02web.zoom.us/j/82548166690">Join the 8/19 5PM ET Zoom</a><br />
-	<span class="heart">♡ </span><a target="_blank" class="zoom underline--dotted" href="https://twitch.tv/sfpc_nyc">Stream on Twitch</a><br />
-	<span class="heart">♡ </span><a target="_blank" class="zoom underline--dotted" href="https://digitallovelanguages.github.io/">Landscapes of Love Class Webzine</a>
+	<span class="heart">♡⚡️ </span><a target="_blank" class="zoom underline--dotted" href="https://digitallovelanguages.github.io/">Landscapes of Love Webzine</a><br />
+	<span class="heart">♡⚡️ </span><a target="_blank" class="zoom underline--dotted" href="https://rcravago.github.io/handle-with-care/inner-package.html">Love Letter to Digital Love Languages</a><br />
+	<span class="heart">♡⚡️ </span><a target="_blank" class="zoom underline--dotted" href="https://rcravago.github.io/handle-with-care/inner-package.html">Digital Love Languages on Are.na</a><br />
+	
+
 	<br />
 	<br />
 	<br />
 </div>
 
-	<a id="rsvp-link" href="https://www.eventbrite.com/e/sharing-sessions-digital-love-languages-tickets-116379382867" target="_blank">
+	<div>
 		<div class="star-container">
 		<div class="circle">
 			<div class="border"></div>
-		<p id="rsvp">
-			RSVP
-		</p>
+		<div id="rsvp">
+		<span class="zoom">Sharing Sessions Recordings:</span>
+	<ul>
+	<li>
+	<a target="_blank" class="zoom underline--dotted" href="https://www.youtube.com/watch?v=FyqOiIcCiaQ&t=398s">Tuesday</a>
+	</li>
+	<li>
+	<a target="_blank" class="zoom underline--dotted" href="https://www.youtube.com/watch?v=gAJ9akQceAA&t=3s">Wednesday</a>
+	</li>
+	</ul>
+	</div>
+	
 	<!-- <div class="star-12"></div> -->
 </div>
 	</div>
-</a>
+</div>
 	<img id="sharing-poster"src="<?php echo get_bloginfo('template_directory'); ?>/img/site.png"</img>
 	<img class="main-image" src=<?php echo get_bloginfo('template_directory'); ?>/img/dll.png></img>
 
