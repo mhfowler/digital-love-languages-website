@@ -962,7 +962,7 @@ ul {
 	}
 } */
 
-img {
+figure img {
   object-fit: contain;
   height: 100%;
 }
