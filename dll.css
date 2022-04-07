@@ -2,18 +2,18 @@
   font-family: 'Minipax';
   src: url('fonts/Minipax/Minipax-Regular.woff') format('woff');
 }
- 
+
 @font-face {
   font-family: 'VG5000';
   src: url('fonts/VG5000/VG5000-Regular_web.woff') format('woff');
 }
 
 span a {
-  color: blue !important;
+  color: DarkOrchid !important;
 }
 
 span a:visited {
-  color: blue !important;
+  color: DarkOrchid !important;
 }
 
 .circle {
@@ -37,10 +37,17 @@ span a:visited {
   #sharing-poster {
     margin-top: 16em;
   }
+  #poster-2022 {
+    margin-bottom: 5em;
+  }
 }
 
 #sharing-poster {
   margin-top: 14em;
+}
+
+#poster-2022 {
+  margin-bottom: 5em;
 }
 
 #zoom-container {
@@ -50,25 +57,25 @@ span a:visited {
   margin-bottom: 6em;
   margin-top: 2em;
   padding-left: 1em;
-  color: blue;
+  color: DarkOrchid;
   z-index: 100;
 }
 
 .underline--dotted {
-  border-bottom: 2px blue dashed;
+  border-bottom: 2px DarkOrchid dashed;
 }
 
 .underline--dotted:hover {
-  border-bottom: 2px yellow dashed;
+  border-bottom: 2px LightGreen dashed;
 }
 
 .heart {
-  color: yellow;
+  color: LightGreen;
 }
 
 #zoom-container a {
   text-decoration: none;
-color: blue;
+color: DarkOrchid;
 }
 
 .circle .border {
@@ -81,7 +88,7 @@ color: blue;
   right: -2px;
   background: transparent;
   border-radius: 50%;
-  border: 2px dashed blue;
+  border: 2px dashed DarkOrchid;
   /* border-image: url("img/broider.png") 28 / 28px / 0 round;
 	border-width: 28px;
 	border-style: solid; */
@@ -103,7 +110,16 @@ color: blue;
 	border: 2px dashed yellow;
 } */
 .yellow-border {
-  border: 2px dashed yellow !important;
+  border: 2px dashed LightGreen !important;
+}
+
+.image-history img {
+  width: 400px;
+}
+.image-history {
+  margin-left: 3em;
+  padding-top: 26em;
+  padding-bottom: 26em;
 }
 
 @-webkit-keyframes Rotate {
@@ -146,7 +162,7 @@ color: blue;
 #rsvp {
   z-index: 1;
   text-align: center;
-  color: blue !important;
+  color: DarkOrchid !important;
   font-size: 1.5em;
   margin-top: 6em !important;
   margin-left: .2em !important;
@@ -164,7 +180,7 @@ color: blue;
   line-height: 1.3em;
 }
 #rsvp ul a{
-  color: blue;
+  color: DarkOrchid;
   text-decoration: none;
   z-index: 30 !important;
 }
@@ -180,8 +196,8 @@ li {
 }
 
 li:before {
-  content: "⚡️";
-  color: yellow;
+  content: "⚘";
+  color: LightGreen;
   padding-right: 5px;
 }
 
@@ -205,8 +221,8 @@ body {
   min-height: 73vh;
   /* background-color: rgba(38, 37, 37, 1); */
   background-color: black;
-  border-image: url("img/broider.png") 28 / 28px / 0 round;
-  border-width: 28px;
+  border-image: url("img/broider5.png") 28 / 28px / 0 round;
+  border-width: 38px;
   border-style: solid;
   margin-top: 1em;
   margin-bottom: 1em;
@@ -243,7 +259,7 @@ body {
   text-align: center;
   background-color: black;
   /*border-radius: 60%;*/
-  outline: 2px dashed blue;
+  outline: 2px dashed DarkOrchid;
 }
 
 a.accordion {
@@ -295,7 +311,7 @@ a.accordion {
 
 .invert {
   /* filter: invert(100%); */
-  outline: 2px dashed yellow;
+  outline: 2px dashed LightGreen;
 }
 
 .top-left {
@@ -335,7 +351,7 @@ a.accordion {
 }
 
 .broider {
-  border-image: url("img/broider.png") 28 / 28px / 0 round;
+  border-image: url("img/broider5.png") 28 / 28px / 0 round;
   border-width: 28px;
   border-style: solid;
 }
@@ -353,8 +369,6 @@ a.accordion {
 
 .special {
   font-style: italic;
-  max-width: 70%;
-  color: #f3fcd0;
 }
 
 .table-of-contents {
@@ -371,7 +385,7 @@ a.accordion {
 }
 
 .big-link {
-  outline: 2px dashed blue;
+  outline: 2px dashed DarkOrchid;
   padding: .5em;
   padding-top: .2em;
 }
@@ -381,7 +395,7 @@ a.accordion {
 }
 
 .notes {
-  border: 2px dashed blue;
+  border: 2px dashed DarkOrchid;
   width: 132px;
   transform: rotate(-20deg);
   padding: .5em;
@@ -389,7 +403,7 @@ a.accordion {
 }
 
 .notes:hover {
-  border: 2px dashed yellow;
+  border: 2px dashed DarkOrchid;
 }
 
 .private {
@@ -440,7 +454,7 @@ ul a:visited {
 }
 
 ul a:hover {
-  color: yellow;
+  color: LightGreen;
 }
 
 .post-link {
@@ -455,11 +469,11 @@ ul a:hover {
 }
 
 .post-link a {
-  color: blue;
+  color: DarkOrchid;
 }
 
 .post-link a:hover {
-  color: yellow;
+  color: LightGreen;
 }
 
 .blog {
@@ -501,7 +515,7 @@ ul a:hover {
 
 .lesson-link:hover {
   text-decoration: none;
-  border-bottom: 2px dashed yellow;
+  border-bottom: 2px dashed LightGreen;
 }
 
 .accordion-link {
@@ -510,7 +524,7 @@ ul a:hover {
 }
 
 .accordion-link:hover {
-  border-bottom: 2px dashed yellow;
+  border-bottom: 2px dashed LightGreen;
   margin-bottom: 13px;
 }
 
@@ -739,7 +753,7 @@ ul {
   .circle {
     width: 18em;
     height: 18em;
-    left: 4.5em;
+    left: -22.5em;
     top: -6.5em;
   }
 
@@ -747,7 +761,7 @@ ul {
     text-align: left !important;
     z-index: 1;
     text-align: center;
-    color: blue !important;
+    color: DarkOrchid !important;
     font-size: 1.5em;
     margin-top: 3.5em !important;
     margin-left: 2em !important;
@@ -773,6 +787,11 @@ ul {
 
   #sharing-poster {
     margin-top: 16em;
+  }
+
+
+  #poster-2022 {
+    margin-bottom: 5em;
   }
 }
 
@@ -806,6 +825,9 @@ ul {
 
     #sharing-poster {
       margin-top: 16em;
+    }
+    #poster-2022 {
+      margin-bottom: 5em;
     }
 }
 }
@@ -910,7 +932,7 @@ ul {
   }
 
   .lesson-link a span {
-    border-bottom: 2px dashed blue;
+    border-bottom: 2px dashed DarkOrchid;
     padding-bottom: .2em;
   }
 
